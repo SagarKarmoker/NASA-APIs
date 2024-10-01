@@ -54,7 +54,7 @@ const ClimateActionGallery = () => {
     return (
         <div>
             <h2 className='text-center text-4xl font-bold p-4'>Climate Action: Earth Images</h2>
-            <div className="image-gallery grid grid-cols-3 gap-3">
+            <div className="image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {validImages.map((image, index) => (
                     <div key={index} className='rounded-md border p-4 shadow-lg'>
                         <img
