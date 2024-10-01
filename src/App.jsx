@@ -2,7 +2,7 @@ import EPICImageGallery from './components/EPICImageGallery'
 
 export default function App() {
   return (
-    <div>
+    <div className='m-4'>
       <EPICImageGallery />
     </div>
   )
